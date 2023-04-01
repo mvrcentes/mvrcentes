@@ -47,7 +47,7 @@ jobs:
         run: |
           node updater.js ${{ github.repository_owner }} atom
         env:
-          GHT: ${{ secrets.GHT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       # Commiting
       - name: commiting changed svg template

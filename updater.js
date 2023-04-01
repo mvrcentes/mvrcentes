@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 const nunjucks = require('nunjucks')
-const { GithubUser } = require('./.github/workflows')
+const { GithubUser } = require('./.github/workflows/github-stats-terminal.yml')
 const themes = require("./themes")
 
 nunjucks.configure({ autoescape: true })
